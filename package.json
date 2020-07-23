@@ -1,0 +1,22 @@
+{
+  "name": "hyunam-meal",
+  "version": "0.0.1",
+  "description": "get meal for hyunam highschool",
+  "main": "dist/",
+  "license": "WTFPL",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "jsdom": "^16.3.0",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "start": "tsc && node dist/"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.7",
+    "@types/jsdom": "^16.2.3"
+  }
+}
